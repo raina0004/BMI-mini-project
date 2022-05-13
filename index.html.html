@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+    <h3 class="heading"> Your BMI </h3>
+    <form class="form">
+   <div class="height"> <input type="number"placeholder="enter yout weight"id="weight"></div>
+<div class="weight"> <input type="number"placeholder="enter yout height"id="height"></div> 
+<div class="dabba">    <p id="result"></p></div>
+<div class="button">
+    <button type="button"id="submit"onclick="bmi()">submit
+        </button>
+    </div>
+</form>
+<script>
+    
+    function bmi()
+    {
+         
+        let weight=document.getElementById("weight").value;
+        let height=document.getElementById("height").value;
+        var bmi=weight/height*2;
+        var bmmi=(bmi.toFixed(2));
+           
+        document.getElementById("result").innerHTML="Here is your " + bmmi;
+    }
+    
+       
+    </script>
+</body>
+</html>

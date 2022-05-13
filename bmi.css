@@ -1,0 +1,81 @@
+*
+{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-image: linear-gradient(to right, #E22865, #37ADCD);
+  
+}
+.heading
+{
+    font-size: 60px;
+    color:#37ADCD;
+    text-align:center;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    padding:10px;
+    justify-content: center;
+    margin-left: 40%;
+    margin-top:60px 
+}
+
+.height input
+{
+    
+padding: 10px;
+width:400px;
+margin:10px   
+}
+#weight
+{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+margin-top: 10px;
+
+}
+#height
+{
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+     margin-top: 10px;
+}
+
+.weight input
+{
+    
+padding: 10px;
+width:400px;
+margin:10px
+
+    
+}
+.button button
+{
+    padding: 10px;
+    margin-top:8px;
+    margin-left: 180px;  
+    width:100px;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    border-style: none;
+    cursor:pointer;
+     
+}
+.button button:hover{
+    color:white;
+    background:#37ADCD;
+}
+.dabba  p{
+    margin-left: 180px;
+    color:bisque;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor:pointer;
+}
